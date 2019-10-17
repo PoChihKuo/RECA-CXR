@@ -1,5 +1,4 @@
 import tensorflow as tf
-
 import numpy as np
 
 record_iterator = tf.python_io.tf_record_iterator(path="tfrecords/tfrecords_train_frontal-00004-of-00012.tfrecord")
